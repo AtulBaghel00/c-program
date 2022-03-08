@@ -1,0 +1,13 @@
+int main()
+{
+    char letter;
+    printf("enter the character \n");
+    scanf("%c",&letter);
+    if(letter>='a' && letter<='z'){
+        printf("letter is lower case\n");
+    }
+    else{
+        printf("letter not in lower case\n");
+    }
+    return 0;
+}
