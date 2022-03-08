@@ -1,0 +1,15 @@
+int main()
+{
+    int principle, rate, tim;
+    
+    printf("enter the principle value is %d \n");
+    scanf("%d",&principle);
+    printf("enter the rate value is %d \n");
+    scanf("%d",&rate);
+    printf("enter the tim value is %d \n");
+    scanf("%d",&tim);
+    
+    printf("the SI is %d",(principle*rate*tim)/100);
+    return 0;
+    
+}
