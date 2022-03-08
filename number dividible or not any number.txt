@@ -1,0 +1,15 @@
+int main()
+{
+    int a;
+    printf("enter the a is %d\n");
+    scanf("%d",&a);
+    if(a%97==0){
+        printf("number is divisible by 97\n");
+    }
+    else{
+        printf("not divisible by 97");
+        }
+    return 0;    
+        
+        
+}    
