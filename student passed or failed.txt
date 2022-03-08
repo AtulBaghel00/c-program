@@ -1,0 +1,20 @@
+int main()
+{
+    int math, sst, science;
+     
+    printf("enter the marks of math \n");
+    scanf("%d", &math);
+    printf("enter the marks of sst n");
+    scanf("%d", &sst);
+    printf("enter the marks of science\n");
+    scanf("%d", &science);
+    float avg= (math+sst+science)/3;
+    printf("avg marks is %f \n",avg);
+    if(math>=33 || sst>=33 || science>=33 || avg>=40){
+        printf("congratulation you are passed\n");
+    }
+    else {
+        printf("you are not passed \n");
+    }
+    return 0;
+} 
